@@ -31,3 +31,6 @@ This package comes with an installer that makes things extremely easy:
 ```
 
 Once the installer is complete, you will be able to use both the anonsurf and pandora modules.
+
+## Forked from
+https://github.com/Und3rf10w/kali-anonsurf
