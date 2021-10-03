@@ -36,7 +36,6 @@ function bomb {
 
 
 
-
 case "$1" in
         start)
                 echo "Argument '$1' is not supported, use bomb instead"
@@ -45,11 +44,6 @@ case "$1" in
                 echo "Error: argument '$1' is not supported, use bomb instead"
         ;;
         stop)
-#        	if ! grep pandora /proc/cmdline 1> /dev/null
-#        	then echo "Not opening Pandora-bootparam, not enabled from kernel line"
-#        	else
-#              bomb
-#            fi
               bomb
         ;;
         bomb)
